@@ -1,8 +1,8 @@
-FROM python:3.7
+FROM python:3.9
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/5tigerjelly/chalice-action"
-LABEL homepage="https://github.com/5tigerjelly/chalice-action"
+LABEL repository="https://github.com/fabio-20dash/chalice-action"
+LABEL homepage="https://github.com/fabio-20dash/chalice-action"
 LABEL maintainer="Chris Oh <chris@5tigerjelly.com> (https://5tigerjelly.com)"
 
 COPY entrypoint.sh /entrypoint.sh
