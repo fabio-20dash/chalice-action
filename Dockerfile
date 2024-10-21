@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.10
 
 LABEL version="1.0.0"
 LABEL repository="https://github.com/fabio-20dash/chalice-action"
