@@ -8,6 +8,5 @@ LABEL maintainer="Chris Oh <chris@5tigerjelly.com> (https://5tigerjelly.com)"
 COPY entrypoint.sh /entrypoint.sh
 
 RUN pip install --upgrade pip
-RUN pip install -r /github/workspace/requirements.txt
 
 ENTRYPOINT ["/entrypoint.sh"]
